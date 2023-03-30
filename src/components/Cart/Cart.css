@@ -1,0 +1,42 @@
+.cart {
+    background: rgba(255, 153, 0, 0.3);
+    width: 264px;
+    height: 944px;
+    margin-left: 25px;
+    margin-top: -42px;
+    position: sticky;
+    top: 0;
+}
+
+.cart-title {
+    text-align: center;
+    padding-top: 28px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1C2B35;
+}
+
+.cart p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #2A414F;
+    margin-left: 23px;
+}
+
+.cart h6 {
+    margin-left: 23px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+}
