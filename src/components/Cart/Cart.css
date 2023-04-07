@@ -40,3 +40,16 @@
     letter-spacing: 0.0015em;
     color: #0E161A;
 }
+
+.clear-btn {
+    height: 48px;
+    width: 90%;
+    margin-left: 15px;
+    background: #FF3030;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
