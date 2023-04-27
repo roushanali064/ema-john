@@ -1,29 +1,27 @@
 .shop-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    /* position: relative; */
 }
 
 .products-container {
+    margin: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    margin-top: 100px;
-    padding-left: 50px;
+    gap: 45px;
 }
-
-.review-order-btn {
+.proceed-link{
+    text-decoration: none;
+}
+.btn-proceed {
+    background: #FF9900;
+    width: 90%;
+    height: 56px;
+    font-size: 21px;
+    margin: 10px auto;
+    border-radius: 4px;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 48px;
-    width: 90%;
-    margin-left: 15px;
-    margin-top: 15px;
-    background: #FF9900;
-    border-radius: 4px;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    letter-spacing: 0.005em;
-    color: #FFFFFF;
 }
